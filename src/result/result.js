@@ -27,7 +27,7 @@ switch(resultToFind) {
     case 'death':
         endMessageNode.textContent = userInfo.playerDeath;
         endMessageNode.innerHTML += ' wins! 1000 years of DEATH falls upon the land...';
-        endImageNode.src = '../../assets/grim-victory.png';
+        endImageNode.src = '../../assets/grim-victory.gif';
         endImageNode.id = 'death-wins';
         endImageNode.alt = 'the grim reaper';
         break;
@@ -36,7 +36,7 @@ switch(resultToFind) {
         playTie();
         endMessageNode.textContent = userInfo.playerCake + ' and ' + userInfo.playerDeath;
         endMessageNode.innerHTML += ' were not strong enough to defeat one another, an unfortunate tie has resulted from their inadequacies.';
-        endImageNode.src = './assets/cake-or-death.png';
+        endImageNode.src = './assets/dreamy-knuth.gif';
         endImageNode.id = 'tie';
         endImageNode.alt = 'a cake and a skull that reads cake or death';
         break;
